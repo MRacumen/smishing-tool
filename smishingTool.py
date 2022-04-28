@@ -10,7 +10,7 @@ connection = sqlite3.connect("dbz")
 Cursor = connection.cursor()
 inspect_url = "http://localhost:4040/"
 filename = "targets.xlsx"
-token = "q4URwEM03LImTcPbVoFtJN8yjO5kCinYe1DZ6rlKhsAWXGvpQfAvf1CPamk7yM5ZO4YgewscDo092uLV"  # change this to your token
+token = "<>"  # change this to your token
 app = flask(__name__)
 @app.route("/")
 def index():
